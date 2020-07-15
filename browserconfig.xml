@@ -3,10 +3,10 @@
 <browserconfig>
   <msapplication>
     <tile>
-      <square70x70logo src="tile.png"/>
-      <square150x150logo src="tile.png"/>
-      <wide310x150logo src="tile-wide.png"/>
-      <square310x310logo src="tile.png"/>
+      <square70x70logo src="r logo.PNG"/>
+      <square150x150logo src="r logo.PNG"/>
+      <wide310x150logo src="ryohLogo_black.png"/>
+      <square310x310logo src="r logo.PNG"/>
     </tile>
   </msapplication>
 </browserconfig>
