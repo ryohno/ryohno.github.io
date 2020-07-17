@@ -221,7 +221,12 @@ textarea {
     right: 60%;
     bottom: 70%;
 }
-
+@media all and (max-width: 2000px) {
+  .textbox {
+    right: 60%;
+    bottom: 70%;
+  }
+}
 @media all and (max-width: 1650px) {
   .textbox {
     right: 30%;
