@@ -175,6 +175,44 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
+.square {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    min-width: 405px;
+    min-height: 540px;
+    width: 45%;
+    height: 60%;
+    margin: auto;
+    text-align: right;
+    box-shadow: 7px 7px grey, 14px 14px darkgrey, 21px 21px dimgrey, 28px 28px lightskyblue, 35px 35px 10px 5px dimgrey ;
+    background-color: white
+}
+
+@media all and (max-width: 400px) {
+  .square {
+    min-width: 300px;
+  }
+}
+
+
+.image {
+
+           position: relative;
+           right:0;
+           max-height: 100%;
+           max-width: 100%;
+
+}
+@media all and (max-width: 400px){
+    .img {
+    max-height: 50%;
+    max-width: 40%;
+  }
+}
+
 .textbox {
     position: relative;
     height: 100%;
@@ -185,11 +223,14 @@ textarea {
 
 @media all and (max-width: 1650px) {
   .textbox {
-      right: 30%;
-  bottom: 40%;
+    right: 30%;
+    bottom: 40%;
   }
-     .square {
-    overflow: auto;
+}
+@media all and (max-width: 400px) {
+  .textbox {
+    right: 30%;
+    bottom: 0%;
   }
 }
 
