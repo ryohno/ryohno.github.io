@@ -188,6 +188,9 @@ textarea {
       right: 30%;
   bottom: 40%;
   }
+     .square {
+    overflow: auto;
+  }
 }
 
 @media print,
