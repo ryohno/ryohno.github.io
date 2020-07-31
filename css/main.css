@@ -229,7 +229,7 @@ textarea {
 @media all and (max-width: 1650px) {
   .textbox {
     right: 30%;
-    bottom: 40%;
+    bottom: 50%;
   }
 }
 @media all and (max-width: 400px) {
